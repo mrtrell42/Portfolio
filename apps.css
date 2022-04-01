@@ -1,0 +1,196 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap");
+/* END font import */
+
+/*  universal reset */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+nav ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+a {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input,
+select {
+	vertical-align: middle;
+}
+/* end of reset */
+
+/* attribution  */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+/* end of attribution  */
+
+body {
+	font-size: 15px;
+	font-family: "Spartan", sans-serif;
+}
+
+/* start of header */
+#heading {
+	display: flex;
+	margin-top: 50px;
+	text-align: center;
+	width: 375px;
+}
+
+#heading .heading h1 {
+	font-size: 1.6rem;
+	color: hsl(300, 43%, 22%);
+	margin-bottom: 25px;
+}
+
+#heading .subHeader {
+	width: 294px;
+	margin: 0 auto;
+	line-height: 1.1rem;
+	margin-bottom: 40px;
+}
+
+/* end of header */
+
+/* Start of ratings */
+#ratings .containers {
+	display: flex;
+}
+
+#ratings {
+	display: flex;
+	margin: 0 auto;
+}
+
+.ratingOne {
+	border: solid black 2px;
+	margin: 0 auto;
+}
+#ratings .starsContainer {
+	border: solid red 2px;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* End of ratings */
